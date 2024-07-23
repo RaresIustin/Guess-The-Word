@@ -1,5 +1,2 @@
 ﻿  GuessTheWord.cpp
-C:\Users\ionit\Documents\GitHub\Guess-The-Word\GuessTheWord\GuessTheWord.cpp(41,11): warning C4566: character represented by universal-character-name '\u021B' cannot be represented in the current code page (1252)
-C:\Users\ionit\Documents\GitHub\Guess-The-Word\GuessTheWord\GuessTheWord.cpp(41,11): warning C4566: character represented by universal-character-name '\u0103' cannot be represented in the current code page (1252)
-C:\Users\ionit\Documents\GitHub\Guess-The-Word\GuessTheWord\GuessTheWord.cpp(67,12): warning C4566: character represented by universal-character-name '\u0219' cannot be represented in the current code page (1252)
   GuessTheWord.vcxproj -> C:\Users\ionit\Documents\GitHub\Guess-The-Word\GuessTheWord\x64\Debug\GuessTheWord.exe
