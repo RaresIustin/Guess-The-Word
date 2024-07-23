@@ -16,6 +16,7 @@ int mistakes = 3;
 
 string word[10] = {"copil" , "munte", "floare", "culoare", "carte", "vis", "fruct", "apa", "arbore", "stea"};
 string wordchecker;
+bool litereFolosite[26] = { false };
 
 void resetConsole() {
 #ifdef _WIN32
@@ -53,8 +54,28 @@ int main() {
 		
 		char guess;
 		cout << "Introduceti o litera: " << endl;
-		cout << "Mai aveti " << mistakes << " greseli";
+		cout << "Mai aveti " << mistakes << " incercari" << endl;
+		cout << "Literele folosite sunt: ";
+
+		for (int i = 0; i < 26; i++)
+			if (litereFolosite[i])
+				cout << (char)(i + 'a') << ", ";
+		
 		guess = _getch();
+
+		if (litereFolosite[guess - 'a']) {
+			cout << " Litera a fost deja folosita. Incearca alta litera.";
+			Sleep(1000);
+			continue;
+		}
+
+		litereFolosite[guess - 'a'] = true;
+
+		
+		for (int i = 0; i < 26; i++)
+			if (litereFolosite[i])
+				cout << (char)(i + 'a') << ", ";
+
 
 		bool charFound = false;
 		for (int i = 0; i < word[random].length(); i++)
