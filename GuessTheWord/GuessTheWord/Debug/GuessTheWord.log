@@ -1,0 +1,5 @@
+﻿  GuessTheWord.cpp
+C:\Users\ionit\Documents\GitHub\Guess-The-Word\GuessTheWord\GuessTheWord.cpp(43,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ionit\Documents\GitHub\Guess-The-Word\GuessTheWord\GuessTheWord.cpp(81,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ionit\Documents\GitHub\Guess-The-Word\GuessTheWord\GuessTheWord.cpp(92,21): warning C4018: '<=': signed/unsigned mismatch
+  GuessTheWord.vcxproj -> C:\Users\ionit\Documents\GitHub\Guess-The-Word\GuessTheWord\Debug\GuessTheWord.exe

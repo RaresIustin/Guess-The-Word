@@ -1,0 +1,9 @@
+﻿  GuessTheWord.cpp
+C:\Users\ionit\Documents\GitHub\Guess-The-Word\GuessTheWord\GuessTheWord.cpp(43,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ionit\Documents\GitHub\Guess-The-Word\GuessTheWord\GuessTheWord.cpp(81,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ionit\Documents\GitHub\Guess-The-Word\GuessTheWord\GuessTheWord.cpp(92,21): warning C4018: '<=': signed/unsigned mismatch
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 104 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  GuessTheWord.vcxproj -> C:\Users\ionit\Documents\GitHub\Guess-The-Word\GuessTheWord\Setup - Guess The Word\Release\GuessTheWord.exe

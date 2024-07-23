@@ -100,6 +100,7 @@ int main() {
 			resetConsole();
 			cout << wordchecker << endl;
 			cout << "Ai castigat! Cuvantul era: " << word[random] << endl;
+			Sleep(5000);
 		}
 
 		if (mistakes == 0) {
@@ -107,6 +108,7 @@ int main() {
 			resetConsole();
 			cout << wordchecker << endl;
 			cout << "Ai pierdut! Cuvantul era: " << word[random] << endl;
+			Sleep(5000);
 		}
 
 	}
